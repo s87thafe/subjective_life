@@ -1,0 +1,27 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# project scaffold
+.DS_Store
+output/**
+!output/**/
+!.gitkeep
+
+data/**
+!data/**/
+!.gitkeep
+
+# downloaded literature — never committed
+literature/*
+!literature/.gitkeep
+
+# paper/ is a separate git repo (Overleaf)
+paper/
