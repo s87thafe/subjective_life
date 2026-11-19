@@ -21,7 +21,7 @@ Requires [uv](https://docs.astral.sh/uv/) and git:
 
 Clone and build the environment:
 
-    git clone <github-url> && cd subjective_life
+    git clone https://github.com/s87thafe/subjective_life.git && cd subjective_life
     uv sync
 
 `uv sync` recreates the exact environment from `uv.lock` — same Python
